@@ -1,0 +1,1147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E76B47A22949EE5200B047D6 /* WLockscreen Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E76B47A12949EE5200B047D6 /* WLockscreen Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E76B47BD2949EF4900B047D6 /* WLockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B47BC2949EF4900B047D6 /* WLockApp.swift */; };
+		E76B47BF2949EF4900B047D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B47BE2949EF4900B047D6 /* ContentView.swift */; };
+		E76B47C12949EF4B00B047D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76B47C02949EF4A00B047D6 /* Assets.xcassets */; };
+		E76B47C42949EF4B00B047D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76B47C32949EF4B00B047D6 /* Preview Assets.xcassets */; };
+		E76B47C72949EF4B00B047D6 /* WLock Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E76B47BA2949EF4900B047D6 /* WLock Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E76B47D12949FAE600B047D6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B371662937814C0041D61A /* WidgetKit.framework */; };
+		E76B47D22949FAE600B047D6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B371682937814D0041D61A /* SwiftUI.framework */; };
+		E76B47D52949FAE600B047D6 /* WidgetWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B47D42949FAE600B047D6 /* WidgetWatch.swift */; };
+		E76B47D82949FAE900B047D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76B47D72949FAE900B047D6 /* Assets.xcassets */; };
+		E76B47DA2949FAE900B047D6 /* WidgetWatch.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E76B47D62949FAE700B047D6 /* WidgetWatch.intentdefinition */; };
+		E76B47DB2949FAE900B047D6 /* WidgetWatch.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E76B47D62949FAE700B047D6 /* WidgetWatch.intentdefinition */; };
+		E76B47DE2949FAE900B047D6 /* WidgetWatchExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E76B47D02949FAE600B047D6 /* WidgetWatchExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E7B3714D29377CFF0041D61A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3714C29377CFF0041D61A /* AppDelegate.swift */; };
+		E7B3714F29377CFF0041D61A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3714E29377CFF0041D61A /* SceneDelegate.swift */; };
+		E7B3715129377CFF0041D61A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3715029377CFF0041D61A /* ViewController.swift */; };
+		E7B3715429377CFF0041D61A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B3715229377CFF0041D61A /* Main.storyboard */; };
+		E7B3715629377D010041D61A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B3715529377D010041D61A /* Assets.xcassets */; };
+		E7B3715929377D010041D61A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B3715729377D010041D61A /* LaunchScreen.storyboard */; };
+		E7B371672937814C0041D61A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B371662937814C0041D61A /* WidgetKit.framework */; };
+		E7B371692937814D0041D61A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B371682937814D0041D61A /* SwiftUI.framework */; };
+		E7B3716C2937814D0041D61A /* LockscreenWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3716B2937814D0041D61A /* LockscreenWidgetsBundle.swift */; };
+		E7B3716E2937814D0041D61A /* LockscreenWidgetsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3716D2937814D0041D61A /* LockscreenWidgetsLiveActivity.swift */; };
+		E7B371702937814D0041D61A /* LockscreenWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3716F2937814D0041D61A /* LockscreenWidgets.swift */; };
+		E7B371732937814F0041D61A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B371722937814F0041D61A /* Assets.xcassets */; };
+		E7B371752937814F0041D61A /* LockscreenWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E7B371712937814D0041D61A /* LockscreenWidgets.intentdefinition */; };
+		E7B371762937814F0041D61A /* LockscreenWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E7B371712937814D0041D61A /* LockscreenWidgets.intentdefinition */; };
+		E7B371792937814F0041D61A /* LockscreenWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E7B371642937814C0041D61A /* LockscreenWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E76B47A32949EE5200B047D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7B3714129377CFF0041D61A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76B47A02949EE5200B047D6;
+			remoteInfo = "WLockscreen Watch App";
+		};
+		E76B47C52949EF4B00B047D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7B3714129377CFF0041D61A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76B47B92949EF4900B047D6;
+			remoteInfo = "WLock Watch App";
+		};
+		E76B47DC2949FAE900B047D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7B3714129377CFF0041D61A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76B47CF2949FAE600B047D6;
+			remoteInfo = WidgetWatchExtension;
+		};
+		E7B371772937814F0041D61A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7B3714129377CFF0041D61A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7B371632937814C0041D61A;
+			remoteInfo = LockscreenWidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E76B47B12949EE5300B047D6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E76B47A22949EE5200B047D6 /* WLockscreen Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B47CB2949EF4B00B047D6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E76B47C72949EF4B00B047D6 /* WLock Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B47E22949FAE900B047D6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E76B47DE2949FAE900B047D6 /* WidgetWatchExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B3717D2937814F0041D61A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E7B371792937814F0041D61A /* LockscreenWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E76B47922949EE5000B047D6 /* WLockscreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLockscreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76B47A12949EE5200B047D6 /* WLockscreen Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WLockscreen Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76B47BA2949EF4900B047D6 /* WLock Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WLock Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76B47BC2949EF4900B047D6 /* WLockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLockApp.swift; sourceTree = "<group>"; };
+		E76B47BE2949EF4900B047D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E76B47C02949EF4A00B047D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E76B47C32949EF4B00B047D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E76B47D02949FAE600B047D6 /* WidgetWatchExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetWatchExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76B47D42949FAE600B047D6 /* WidgetWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetWatch.swift; sourceTree = "<group>"; };
+		E76B47D62949FAE700B047D6 /* WidgetWatch.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WidgetWatch.intentdefinition; sourceTree = "<group>"; };
+		E76B47D72949FAE900B047D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E76B47D92949FAE900B047D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B3714929377CFF0041D61A /* Lockcreen-Widgets- test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lockcreen-Widgets- test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B3714C29377CFF0041D61A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7B3714E29377CFF0041D61A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E7B3715029377CFF0041D61A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7B3715329377CFF0041D61A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7B3715529377D010041D61A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7B3715829377D010041D61A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7B3715A29377D010041D61A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B371642937814C0041D61A /* LockscreenWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LockscreenWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B371662937814C0041D61A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E7B371682937814D0041D61A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E7B3716B2937814D0041D61A /* LockscreenWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockscreenWidgetsBundle.swift; sourceTree = "<group>"; };
+		E7B3716D2937814D0041D61A /* LockscreenWidgetsLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockscreenWidgetsLiveActivity.swift; sourceTree = "<group>"; };
+		E7B3716F2937814D0041D61A /* LockscreenWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockscreenWidgets.swift; sourceTree = "<group>"; };
+		E7B371712937814D0041D61A /* LockscreenWidgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = LockscreenWidgets.intentdefinition; sourceTree = "<group>"; };
+		E7B371722937814F0041D61A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7B371742937814F0041D61A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E76B478F2949EE5000B047D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B479E2949EE5200B047D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B47B72949EF4900B047D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B47CD2949FAE600B047D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76B47D22949FAE600B047D6 /* SwiftUI.framework in Frameworks */,
+				E76B47D12949FAE600B047D6 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B3714629377CFF0041D61A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B371612937814C0041D61A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B371692937814D0041D61A /* SwiftUI.framework in Frameworks */,
+				E7B371672937814C0041D61A /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E76B47BB2949EF4900B047D6 /* WLock Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E76B47BC2949EF4900B047D6 /* WLockApp.swift */,
+				E76B47BE2949EF4900B047D6 /* ContentView.swift */,
+				E76B47C02949EF4A00B047D6 /* Assets.xcassets */,
+				E76B47C22949EF4B00B047D6 /* Preview Content */,
+			);
+			path = "WLock Watch App";
+			sourceTree = "<group>";
+		};
+		E76B47C22949EF4B00B047D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E76B47C32949EF4B00B047D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E76B47D32949FAE600B047D6 /* WidgetWatch */ = {
+			isa = PBXGroup;
+			children = (
+				E76B47D42949FAE600B047D6 /* WidgetWatch.swift */,
+				E76B47D62949FAE700B047D6 /* WidgetWatch.intentdefinition */,
+				E76B47D72949FAE900B047D6 /* Assets.xcassets */,
+				E76B47D92949FAE900B047D6 /* Info.plist */,
+			);
+			path = WidgetWatch;
+			sourceTree = "<group>";
+		};
+		E7B3714029377CFF0041D61A = {
+			isa = PBXGroup;
+			children = (
+				E7B3714B29377CFF0041D61A /* Lockcreen-Widgets- test */,
+				E7B3716A2937814D0041D61A /* LockscreenWidgets */,
+				E76B47BB2949EF4900B047D6 /* WLock Watch App */,
+				E76B47D32949FAE600B047D6 /* WidgetWatch */,
+				E7B371652937814C0041D61A /* Frameworks */,
+				E7B3714A29377CFF0041D61A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7B3714A29377CFF0041D61A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3714929377CFF0041D61A /* Lockcreen-Widgets- test.app */,
+				E7B371642937814C0041D61A /* LockscreenWidgetsExtension.appex */,
+				E76B47922949EE5000B047D6 /* WLockscreen.app */,
+				E76B47A12949EE5200B047D6 /* WLockscreen Watch App.app */,
+				E76B47BA2949EF4900B047D6 /* WLock Watch App.app */,
+				E76B47D02949FAE600B047D6 /* WidgetWatchExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7B3714B29377CFF0041D61A /* Lockcreen-Widgets- test */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3714C29377CFF0041D61A /* AppDelegate.swift */,
+				E7B3714E29377CFF0041D61A /* SceneDelegate.swift */,
+				E7B3715029377CFF0041D61A /* ViewController.swift */,
+				E7B3715229377CFF0041D61A /* Main.storyboard */,
+				E7B3715529377D010041D61A /* Assets.xcassets */,
+				E7B3715729377D010041D61A /* LaunchScreen.storyboard */,
+				E7B3715A29377D010041D61A /* Info.plist */,
+			);
+			path = "Lockcreen-Widgets- test";
+			sourceTree = "<group>";
+		};
+		E7B371652937814C0041D61A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7B371662937814C0041D61A /* WidgetKit.framework */,
+				E7B371682937814D0041D61A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7B3716A2937814D0041D61A /* LockscreenWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3716B2937814D0041D61A /* LockscreenWidgetsBundle.swift */,
+				E7B3716D2937814D0041D61A /* LockscreenWidgetsLiveActivity.swift */,
+				E7B3716F2937814D0041D61A /* LockscreenWidgets.swift */,
+				E7B371712937814D0041D61A /* LockscreenWidgets.intentdefinition */,
+				E7B371722937814F0041D61A /* Assets.xcassets */,
+				E7B371742937814F0041D61A /* Info.plist */,
+			);
+			path = LockscreenWidgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E76B47912949EE5000B047D6 /* WLockscreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76B47B52949EE5300B047D6 /* Build configuration list for PBXNativeTarget "WLockscreen" */;
+			buildPhases = (
+				E76B478E2949EE5000B047D6 /* Sources */,
+				E76B478F2949EE5000B047D6 /* Frameworks */,
+				E76B47902949EE5000B047D6 /* Resources */,
+				E76B47B12949EE5300B047D6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E76B47A42949EE5200B047D6 /* PBXTargetDependency */,
+			);
+			name = WLockscreen;
+			productName = WLockscreen;
+			productReference = E76B47922949EE5000B047D6 /* WLockscreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E76B47A02949EE5200B047D6 /* WLockscreen Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76B47B42949EE5300B047D6 /* Build configuration list for PBXNativeTarget "WLockscreen Watch App" */;
+			buildPhases = (
+				E76B479D2949EE5200B047D6 /* Sources */,
+				E76B479E2949EE5200B047D6 /* Frameworks */,
+				E76B479F2949EE5200B047D6 /* Resources */,
+				E76B47E22949FAE900B047D6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E76B47DD2949FAE900B047D6 /* PBXTargetDependency */,
+			);
+			name = "WLockscreen Watch App";
+			productName = "WLockscreen Watch App";
+			productReference = E76B47A12949EE5200B047D6 /* WLockscreen Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E76B47B92949EF4900B047D6 /* WLock Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76B47C82949EF4B00B047D6 /* Build configuration list for PBXNativeTarget "WLock Watch App" */;
+			buildPhases = (
+				E76B47B62949EF4900B047D6 /* Sources */,
+				E76B47B72949EF4900B047D6 /* Frameworks */,
+				E76B47B82949EF4900B047D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WLock Watch App";
+			productName = "WLock Watch App";
+			productReference = E76B47BA2949EF4900B047D6 /* WLock Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E76B47CF2949FAE600B047D6 /* WidgetWatchExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76B47DF2949FAE900B047D6 /* Build configuration list for PBXNativeTarget "WidgetWatchExtension" */;
+			buildPhases = (
+				E76B47CC2949FAE600B047D6 /* Sources */,
+				E76B47CD2949FAE600B047D6 /* Frameworks */,
+				E76B47CE2949FAE600B047D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetWatchExtension;
+			productName = WidgetWatchExtension;
+			productReference = E76B47D02949FAE600B047D6 /* WidgetWatchExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E7B3714829377CFF0041D61A /* Lockcreen-Widgets- test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B3715D29377D010041D61A /* Build configuration list for PBXNativeTarget "Lockcreen-Widgets- test" */;
+			buildPhases = (
+				E7B3714529377CFF0041D61A /* Sources */,
+				E7B3714629377CFF0041D61A /* Frameworks */,
+				E7B3714729377CFF0041D61A /* Resources */,
+				E7B3717D2937814F0041D61A /* Embed Foundation Extensions */,
+				E76B47CB2949EF4B00B047D6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7B371782937814F0041D61A /* PBXTargetDependency */,
+				E76B47C62949EF4B00B047D6 /* PBXTargetDependency */,
+			);
+			name = "Lockcreen-Widgets- test";
+			productName = "Lockcreen-Widgets- test";
+			productReference = E7B3714929377CFF0041D61A /* Lockcreen-Widgets- test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7B371632937814C0041D61A /* LockscreenWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B3717A2937814F0041D61A /* Build configuration list for PBXNativeTarget "LockscreenWidgetsExtension" */;
+			buildPhases = (
+				E7B371602937814C0041D61A /* Sources */,
+				E7B371612937814C0041D61A /* Frameworks */,
+				E7B371622937814C0041D61A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockscreenWidgetsExtension;
+			productName = LockscreenWidgetsExtension;
+			productReference = E7B371642937814C0041D61A /* LockscreenWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7B3714129377CFF0041D61A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E76B47912949EE5000B047D6 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E76B47A02949EE5200B047D6 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E76B47B92949EF4900B047D6 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E76B47CF2949FAE600B047D6 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E7B3714829377CFF0041D61A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E7B371632937814C0041D61A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = E7B3714429377CFF0041D61A /* Build configuration list for PBXProject "Lockcreen-Widgets- test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7B3714029377CFF0041D61A;
+			productRefGroup = E7B3714A29377CFF0041D61A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7B3714829377CFF0041D61A /* Lockcreen-Widgets- test */,
+				E7B371632937814C0041D61A /* LockscreenWidgetsExtension */,
+				E76B47912949EE5000B047D6 /* WLockscreen */,
+				E76B47A02949EE5200B047D6 /* WLockscreen Watch App */,
+				E76B47B92949EF4900B047D6 /* WLock Watch App */,
+				E76B47CF2949FAE600B047D6 /* WidgetWatchExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E76B47902949EE5000B047D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B479F2949EE5200B047D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B47B82949EF4900B047D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76B47C42949EF4B00B047D6 /* Preview Assets.xcassets in Resources */,
+				E76B47C12949EF4B00B047D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B47CE2949FAE600B047D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76B47D82949FAE900B047D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B3714729377CFF0041D61A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B3715929377D010041D61A /* LaunchScreen.storyboard in Resources */,
+				E7B3715629377D010041D61A /* Assets.xcassets in Resources */,
+				E7B3715429377CFF0041D61A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B371622937814C0041D61A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B371732937814F0041D61A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E76B478E2949EE5000B047D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B479D2949EE5200B047D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76B47DB2949FAE900B047D6 /* WidgetWatch.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B47B62949EF4900B047D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76B47BF2949EF4900B047D6 /* ContentView.swift in Sources */,
+				E76B47BD2949EF4900B047D6 /* WLockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B47CC2949FAE600B047D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76B47DA2949FAE900B047D6 /* WidgetWatch.intentdefinition in Sources */,
+				E76B47D52949FAE600B047D6 /* WidgetWatch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B3714529377CFF0041D61A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B3715129377CFF0041D61A /* ViewController.swift in Sources */,
+				E7B3714D29377CFF0041D61A /* AppDelegate.swift in Sources */,
+				E7B3714F29377CFF0041D61A /* SceneDelegate.swift in Sources */,
+				E7B371762937814F0041D61A /* LockscreenWidgets.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B371602937814C0041D61A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B3716C2937814D0041D61A /* LockscreenWidgetsBundle.swift in Sources */,
+				E7B3716E2937814D0041D61A /* LockscreenWidgetsLiveActivity.swift in Sources */,
+				E7B371702937814D0041D61A /* LockscreenWidgets.swift in Sources */,
+				E7B371752937814F0041D61A /* LockscreenWidgets.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E76B47A42949EE5200B047D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E76B47A02949EE5200B047D6 /* WLockscreen Watch App */;
+			targetProxy = E76B47A32949EE5200B047D6 /* PBXContainerItemProxy */;
+		};
+		E76B47C62949EF4B00B047D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E76B47B92949EF4900B047D6 /* WLock Watch App */;
+			targetProxy = E76B47C52949EF4B00B047D6 /* PBXContainerItemProxy */;
+		};
+		E76B47DD2949FAE900B047D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E76B47CF2949FAE600B047D6 /* WidgetWatchExtension */;
+			targetProxy = E76B47DC2949FAE900B047D6 /* PBXContainerItemProxy */;
+		};
+		E7B371782937814F0041D61A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7B371632937814C0041D61A /* LockscreenWidgetsExtension */;
+			targetProxy = E7B371772937814F0041D61A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7B3715229377CFF0041D61A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B3715329377CFF0041D61A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7B3715729377D010041D61A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B3715829377D010041D61A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E76B47AF2949EE5300B047D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WLockscreen/Preview Content\"";
+				DEVELOPMENT_TEAM = 7TU2Z2R488;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WLockscreen;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tt.WLockscreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E76B47B02949EE5300B047D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WLockscreen/Preview Content\"";
+				DEVELOPMENT_TEAM = 7TU2Z2R488;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WLockscreen;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tt.WLockscreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E76B47B22949EE5300B047D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WLockscreen Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7TU2Z2R488;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WLockscreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = tt.WLockscreen;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tt.WLockscreen.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		E76B47B32949EE5300B047D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WLockscreen Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7TU2Z2R488;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WLockscreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = tt.WLockscreen;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tt.WLockscreen.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		E76B47C92949EF4B00B047D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WLock Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7TU2Z2R488;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WLock;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "tt.Lockcreen-Widgets--test";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tt.Lockcreen-Widgets--test.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		E76B47CA2949EF4B00B047D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WLock Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7TU2Z2R488;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WLock;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "tt.Lockcreen-Widgets--test";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tt.Lockcreen-Widgets--test.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		E76B47E02949FAE900B047D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TU2Z2R488;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetWatch;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tt.WLockscreen.watchkitapp.WidgetWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		E76B47E12949FAE900B047D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TU2Z2R488;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetWatch;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tt.WLockscreen.watchkitapp.WidgetWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		E7B3715B29377D010041D61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7B3715C29377D010041D61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7B3715E29377D010041D61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TU2Z2R488;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lockcreen-Widgets- test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tt.Lockcreen-Widgets--test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7B3715F29377D010041D61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TU2Z2R488;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lockcreen-Widgets- test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tt.Lockcreen-Widgets--test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7B3717B2937814F0041D61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TU2Z2R488;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LockscreenWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LockscreenWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tt.Lockcreen-Widgets--test.LockscreenWidgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7B3717C2937814F0041D61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TU2Z2R488;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LockscreenWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LockscreenWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tt.Lockcreen-Widgets--test.LockscreenWidgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E76B47B42949EE5300B047D6 /* Build configuration list for PBXNativeTarget "WLockscreen Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76B47B22949EE5300B047D6 /* Debug */,
+				E76B47B32949EE5300B047D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76B47B52949EE5300B047D6 /* Build configuration list for PBXNativeTarget "WLockscreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76B47AF2949EE5300B047D6 /* Debug */,
+				E76B47B02949EE5300B047D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76B47C82949EF4B00B047D6 /* Build configuration list for PBXNativeTarget "WLock Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76B47C92949EF4B00B047D6 /* Debug */,
+				E76B47CA2949EF4B00B047D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76B47DF2949FAE900B047D6 /* Build configuration list for PBXNativeTarget "WidgetWatchExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76B47E02949FAE900B047D6 /* Debug */,
+				E76B47E12949FAE900B047D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B3714429377CFF0041D61A /* Build configuration list for PBXProject "Lockcreen-Widgets- test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B3715B29377D010041D61A /* Debug */,
+				E7B3715C29377D010041D61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B3715D29377D010041D61A /* Build configuration list for PBXNativeTarget "Lockcreen-Widgets- test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B3715E29377D010041D61A /* Debug */,
+				E7B3715F29377D010041D61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B3717A2937814F0041D61A /* Build configuration list for PBXNativeTarget "LockscreenWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B3717B2937814F0041D61A /* Debug */,
+				E7B3717C2937814F0041D61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7B3714129377CFF0041D61A /* Project object */;
+}
